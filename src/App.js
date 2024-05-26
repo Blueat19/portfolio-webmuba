@@ -8,6 +8,7 @@ import Errorpage from './pages/Errorpage';
 import Pricing from './pages/pricing';
 import Header from "./components/Header";
 import Footer from './components/Footer';
+import CustomizePackage from './pages/CustomizePackage';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="*" element={<Errorpage />} />
+          <Route path = "/CustomizePackage" element={<CustomizePackage/>}/>
         </Routes>
         <TitleUpdater />
         <Footer/>

@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row"; // Ensure Row is imported
 import { motion } from "framer-motion";
 
-export default function Pricing() {
+export default function Pricing({ pageValue }) {
   const pricing = [
   {
    name: "Level 1",
@@ -19,12 +19,12 @@ export default function Pricing() {
    ],
    button: {
     text: "Get Started",
-    link: "/",
+    link: `/CustomizePackage?pageValue=${25}`,
    },
   },
   {
    name: "Level 2",
-   price: "45 Usd Per Page", // Updated this line
+   price: "45 Usd Per Page", 
    popular: true,
    features: [
     "Animated and stylish pages",
@@ -34,7 +34,7 @@ export default function Pricing() {
    ],
    button: {
     text: "Get Started",
-    link: "#",
+    link: `/CustomizePackage?pageValue=${45}`, 
    },
   },
   {
@@ -48,8 +48,8 @@ export default function Pricing() {
     "24/7 Phone Support",
    ],
    button: {
-    text: "Contact us",
-    link: "/contact",
+    text: "Get Started",
+     link: `/CustomizePackage?pageValue=${60}`,
    },
   },
  ];
@@ -119,3 +119,4 @@ export default function Pricing() {
     </>
   );
 }
+
