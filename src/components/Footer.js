@@ -30,14 +30,15 @@ export default function Footer() {
       <p className="text-center text-xs text-red-500 mt-1">
         Made by{" "}
         <img
-          height={"70"}
-          width={"60"}
-          src={favicon}
-          onClick={() => {
-            window.location.href = "https://webmuba.co.zw/";
-          }}
-          className="inline cursor-pointer"
-        />
+  height={"70"}
+  width={"60"}
+  src={favicon}
+  alt="Website favicon"
+  onClick={() => {
+    window.location.href = "https://webmuba.netify.app/";
+  }}
+  className="inline cursor-pointer"
+/>
       </p>
     </footer>
   );
