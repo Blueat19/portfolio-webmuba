@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="*" element={<Errorpage />} />
-          <Route path = "/CustomizePackage" element={<CustomizePackage/>}/>
+          <Route path = "/CustomizePackage/:pageValue" element={<CustomizePackage/>}/>
         </Routes>
         <TitleUpdater />
         <Footer/>

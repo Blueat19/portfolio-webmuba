@@ -19,7 +19,7 @@ export default function Pricing({ pageValue }) {
    ],
    button: {
     text: "Get Started",
-    link: `/CustomizePackage?pageValue=${25}`,
+    link: `/CustomizePackage/25`,
    },
   },
   {
@@ -34,7 +34,7 @@ export default function Pricing({ pageValue }) {
    ],
    button: {
     text: "Get Started",
-    link: `/CustomizePackage?pageValue=${45}`, 
+    link: `/CustomizePackage/45`, 
    },
   },
   {
@@ -49,7 +49,7 @@ export default function Pricing({ pageValue }) {
    ],
    button: {
     text: "Get Started",
-     link: `/CustomizePackage?pageValue=${60}`,
+     link: `/CustomizePackage/60`,
    },
   },
  ];

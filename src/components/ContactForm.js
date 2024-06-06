@@ -26,7 +26,7 @@ export default function ContactForm() {
 
   return (
     <div className="container mx-auto max-w-md mt-10">  {/* Added container for centering */}
-      <form id="form" onSubmit={handleSubmit} noValidate>
+      <form id="form" onSubmit={handleSubmit} noValidate className="p-4 bg-white shadow-lg rounded-lg max-w-xs mx-auto">  {/* Added stylish form wrapper */}
         <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY" /> {/* Replace with your Web3Forms access key */}
         <input type="checkbox" className="hidden" style={{ display: 'none' }} name="botcheck" />
 
@@ -35,7 +35,7 @@ export default function ContactForm() {
             type="text"
             placeholder="Full Name"
             required
-            className="w-full px-4 py-3 border-2 placeholder-text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100 items-center"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             name="name"
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -56,7 +56,7 @@ export default function ContactForm() {
             placeholder="Email Address"
             name="email"
             required
-            className="w-full px-4 py-3 border-2 placeholder-text-gray-800 rounded-md outline-none focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -73,7 +73,7 @@ export default function ContactForm() {
             name="message"
             required
             placeholder="Your Message"
-            className="w-full px-4 py-3 border-2 placeholder-text-gray-800 rounded-md outline-none h-36 focus:ring-4 border-gray-300 focus:border-gray-600 ring-gray-100"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
@@ -90,7 +90,7 @@ export default function ContactForm() {
         whileHover={{ scale: 1.1}}
         initial={{ x: "-100vw"}}
         animate={{ x: 0}}
-        style= {{backgroundColor:"blue"}}size="lg" 
+        style= {{backgroundColor:"blue", color:"white"}}size="lg" 
         block className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
         >Send Message
         </motion.button>
