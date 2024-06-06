@@ -9,7 +9,7 @@ export default function Footer() {
         style={{ height: "10px" }}
       ></div>
       <p className="text-center text-sm text-red-500">
-        Copyright © {new Date().getFullYear()} Murewa Cps. All rights reserved.
+        Copyright © {new Date().getFullYear()} WebMuba. All rights reserved.
       </p>
       <p className="text-center text-xs text-red-500 mt-1">
         Connect with us:{" "}
