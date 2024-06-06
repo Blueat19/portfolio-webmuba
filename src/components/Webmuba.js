@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import webmubainfo from "../assets/webmubainfo.png";
-import logo from "../assets/logo.png";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Webmuba() {

@@ -13,7 +13,7 @@ export default function Footer() {
         <a
           href="https://webmuba.co.zw"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           className="hover:underline"
         >
           WebMuba
