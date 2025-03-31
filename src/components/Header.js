@@ -20,13 +20,13 @@ export default function Header(){
       </div>
 
       <ul className="nav-menu">
-        <li onClick={() => setMenu("shop")}>
+        <li onClick={() => setMenu("home")}>
           <Link style={{ textDecoration: "none" }} to="/">
             Home
           </Link>
           {menu === "Home" ? <hr /> : <></>}
         </li>
-        <li onClick={() => setMenu("About")}>
+        <li onClick={() => setMenu("about")}>
           <Link style={{ textDecoration: "none" }} to="/about">
             About
           </Link>
@@ -38,19 +38,19 @@ export default function Header(){
           </Link>
           {menu === "webd" ? <hr /> : <></>}
         </li>
-        <li onClick={() => setMenu("Business")}>
+        <li onClick={() => setMenu("business")}>
           <Link style={{ textDecoration: "none" }} to="/business">
             Business Suite
           </Link>
           {menu === "kids" ? <hr /> : <></>}
         </li>
-        <li onClick={() => setMenu("Marketing")}>
+        <li onClick={() => setMenu("marketing")}>
           <Link style={{ textDecoration: "none" }} to="/marketing">
             Marketing
           </Link>
           {menu === "kids" ? <hr /> : <></>}
         </li>
-        <li onClick={() => setMenu("Banner Design")}>
+        <li onClick={() => setMenu("banner")}>
           <Link style={{ textDecoration: "none" }} to="/banner">
             Banner Design
           </Link>
