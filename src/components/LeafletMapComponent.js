@@ -7,7 +7,7 @@ import icon2 from "../images/logoblue.png"
 function LeafletMapComponent() {
   const mapRef = useRef(null);
   const [map, setMap] = useState(null);
-  const [markerPosition, setMarkerPosition] = useState({ lat: -17.825166, lng: 31.033512 });
+  const [markerPosition, setMarkerPosition] = useState({ lat: -17.866312, lng: 31.109771 });
 
   useEffect(() => {
     if (!mapRef.current) {

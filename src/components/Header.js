@@ -24,13 +24,13 @@ export default function Header(){
           <Link style={{ textDecoration: "none" }} to="/">
             Home
           </Link>
-          {menu === "Home" ? <hr /> : <></>}
+          {menu === "home" ? <hr /> : <></>}
         </li>
         <li onClick={() => setMenu("about")}>
           <Link style={{ textDecoration: "none" }} to="/about">
             About
           </Link>
-          {menu === "mens" ? <hr /> : <></>}
+          {menu === "about" ? <hr /> : <></>}
         </li>
         <li onClick={() => setMenu("webd")}>
           <Link style={{ textDecoration: "none" }} to="/webd">
@@ -42,19 +42,19 @@ export default function Header(){
           <Link style={{ textDecoration: "none" }} to="/business">
             Business Suite
           </Link>
-          {menu === "kids" ? <hr /> : <></>}
+          {menu === "business" ? <hr /> : <></>}
         </li>
         <li onClick={() => setMenu("marketing")}>
           <Link style={{ textDecoration: "none" }} to="/marketing">
             Marketing
           </Link>
-          {menu === "kids" ? <hr /> : <></>}
+          {menu === "marketing" ? <hr /> : <></>}
         </li>
         <li onClick={() => setMenu("banner")}>
           <Link style={{ textDecoration: "none" }} to="/banner">
             Banner Design
           </Link>
-          {menu === "kids" ? <hr /> : <></>}
+          {menu === "banner" ? <hr /> : <></>}
         </li>
       </ul>
       <div className="nav-login-cart">

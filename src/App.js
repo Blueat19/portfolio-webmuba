@@ -10,6 +10,7 @@ import Header from "./components/Header";
 import Footer from './components/Footer';
 import CustomizePackage from './pages/CustomizePackage';
 import Services from './pages/Services';
+import Cart from './components/Cart';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/pricing" element={<Pricing />} />
           <Route path="*" element={<Errorpage />} />
           <Route path = "/Services" element={<Services/>}/>
+          <Route path = "/cart" element={<Cart/>}/>
           <Route path = "/CustomizePackage/:pageValue" element={<CustomizePackage/>}/>
         </Routes>
         <TitleUpdater />
@@ -47,6 +49,8 @@ function TitleUpdater() {
         return 'SW-Contact';
       case '/pricing':
         return 'SW-Pricing';
+      case '/cart':
+        return 'SW-Cart';
       default:
         return 'SW';
     }
