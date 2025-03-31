@@ -1,5 +1,6 @@
 
 import Features from "../components/Features";
+import LeafletMapComponent from "../components/LeafletMapComponent";
 import Webmuba from "../components/Webmuba";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
       </div>
       <Features/>
+      <LeafletMapComponent/>
     </>
   );
 }

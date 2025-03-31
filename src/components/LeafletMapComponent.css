@@ -1,0 +1,12 @@
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  text-align: center; /* Centers the heading and button */
+}
+
+#myMap {
+  height: 500px;
+  width: 70%;
+  margin: 0 auto; /* This is the key to horizontal centering */
+}

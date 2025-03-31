@@ -9,6 +9,7 @@ import Pricing from './pages/pricing';
 import Header from "./components/Header";
 import Footer from './components/Footer';
 import CustomizePackage from './pages/CustomizePackage';
+import Services from './pages/Services';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="*" element={<Errorpage />} />
+          <Route path = "/Services" element={<Services/>}/>
           <Route path = "/CustomizePackage/:pageValue" element={<CustomizePackage/>}/>
         </Routes>
         <TitleUpdater />
@@ -38,15 +40,15 @@ function TitleUpdater() {
     const path = location.pathname;
     switch (path) {
       case '/':
-        return 'WebMuba-Home';
+        return 'SW-Home';
       case '/about':
-        return 'WebMuba-About';
+        return 'SW-About';
       case '/contact':
-        return 'WebMuba-Contact';
+        return 'SW-Contact';
       case '/pricing':
-        return 'WebMuba-Pricing';
+        return 'SW-Pricing';
       default:
-        return 'WebMuba';
+        return 'SW';
     }
   };
 
