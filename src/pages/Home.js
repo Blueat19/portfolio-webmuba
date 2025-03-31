@@ -11,7 +11,7 @@ export default function Home() {
         <div className="mt-6 text-center">
            <Webmuba/>
           <p className="text-lg mt-4 text-slate-600 max-w-xl" style={{color:"black" , fontSize:"30px"}}>
-            Welcome to WebMuba where we make what you want when you want it. Making world-class websites of the future.
+            Welcome to Scott's CyberWorld where we make what you want when you want it. Making world-class websites of the future.
           </p>
         </div>
       </div>

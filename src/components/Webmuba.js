@@ -5,7 +5,7 @@ export default function Webmuba() {
 
   return (
     <div className="py-6 md:order-1 hidden md:block relative w-full flex justify-center">
-     <h1>Bado</h1>  
+     <h1>Welcome to Scott's CyberWorld</h1>  
     <video
       src={vidz}
       style={{ width: "100%" }}
