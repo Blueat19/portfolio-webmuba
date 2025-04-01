@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './LeafletMapComponent.css'; // Import a CSS file for better styling
-import icon2 from "../images/logoblue.png"
 
 function LeafletMapComponent() {
   const mapRef = useRef(null);
@@ -34,13 +33,14 @@ function LeafletMapComponent() {
     };
   }, [markerPosition]);
 
+
   useEffect(() => {
     if (map) {
       L.marker(markerPosition).addTo(map)
         .bindPopup("SW HeadQuarters")
         .openPopup();
     }
-  }, [map, markerPosition]);
+  }, [map]);
 
   const handleMoveMarker = () => {
     const newLat = markerPosition.lat + 0.01;
