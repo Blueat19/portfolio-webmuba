@@ -31,8 +31,7 @@ function LeafletMapComponent() {
         map.remove();
       }
     };
-  }, [markerPosition]);
-
+  }, [markerPosition, map]);
 
   useEffect(() => {
     if (map) {
@@ -40,7 +39,7 @@ function LeafletMapComponent() {
         .bindPopup("SW HeadQuarters")
         .openPopup();
     }
-  }, [map]);
+  }, [map, markerPosition]);
 
   const handleMoveMarker = () => {
     const newLat = markerPosition.lat + 0.01;
