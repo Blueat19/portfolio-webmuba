@@ -9,7 +9,7 @@ export default function Footer() {
     >
       <div className = "row">
         <div
-          className="col-4 row"
+          className="col-12 col-md-4 row"
         >
            <div className="col-12">
            <img
@@ -25,7 +25,7 @@ export default function Footer() {
              ><strong>SW</strong></p>
            </div>
         </div>
-         <div className="col-4">
+         <div className="col-12 col-md-4">
          <p className="text-center text-xs text-red-500 mt-1">
          <h4
            style={{color: "white"}}         
@@ -56,18 +56,18 @@ export default function Footer() {
         </p>
        </p>
          </div>
-         <div className="col-4">
+         <div className="col-12 col-md-4">
          <h4
          style={{color: "white"}}      
          >DoorMat Navigation</h4>
               <ul style={{ listStyleType: 'none', padding: 0 }}>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#webd">Web Design</a></li>
-                <li><a href="#business">Business Design</a></li>
-                <li><a href="#Marketing">Marketing_and_Design</a></li>
-                <li><a href="#login">Banner_Design</a></li>
-                <li><a href="#login">Back To Top</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/webd">Web Design</a></li>
+                <li><a href="/business">Business Design</a></li>
+                <li><a href="/Marketing">Marketing_and_Design</a></li>
+                <li><a href="/banner">Banner_Design</a></li>
+                <li><a href="#top">Back To Top</a></li>
               </ul>
          </div>
       </div>

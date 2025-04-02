@@ -1,9 +1,4 @@
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    padding: 2px;
-    box-shadow: 0 1px 3px -2px black;
-}
+
 
 .nav-logo {
     display: flex;
@@ -27,7 +22,7 @@
     font-weight: 500;
 }
 
-.nav-menu li {
+.nav-menu Nav {
     display: flex;
     flex-direction: column;
     align-items: center;
