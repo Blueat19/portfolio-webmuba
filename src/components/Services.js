@@ -1,5 +1,4 @@
-import React,{Link}from "react";
-import y from "../images/mubaiwaK.jpg"
+import React from "react";
 import games from "../images/games.png"
 import webd from "../images/web design.jpeg"
 import about from "../images/about Us.jpg"
