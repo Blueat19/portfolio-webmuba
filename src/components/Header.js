@@ -10,7 +10,7 @@ export default function Header() {
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
     navLinks.forEach((link) => {
       link.style.padding = '10px 15px';
-      link.style.color = '#0d6efd';
+      link.style.color = 'rgb(8,58,149)';
       link.style.fontWeight = 'bold';
       link.style.fontSize = '18px';
     });
@@ -36,6 +36,7 @@ export default function Header() {
               <Nav.Link as={Link} to="/business" style={{ color: "#0d6efd" }}>Business Suite</Nav.Link>
               <Nav.Link as={Link} to="/marketing" style={{ color: "#0d6efd" }}>Marketing</Nav.Link>
               <Nav.Link as={Link} to="/banner" style={{ color: "#0d6efd" }}>Banner Design</Nav.Link>
+              <Nav.Link as={Link} to="/gaming" style={{ color: "#0d6efd" }}>Gaming</Nav.Link>
               <div className="nav-login-cart">
                 <Link style={{ textDecoration: "none" }} to="/cart">
                   <img src={cart_icon} alt="" />
