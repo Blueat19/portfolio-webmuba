@@ -1,4 +1,3 @@
-import { SiCarthrottle } from "react-icons/si";
 import LeafletMapComponent from "../components/LeafletMapComponent";
 import Services from "../components/Services";
 import ScottCyberWorld from "../components/ScottCyberWorldSection";
@@ -6,7 +5,6 @@ import ScottCyberWorld from "../components/ScottCyberWorldSection";
 export default function Home() {
   return (
     <>
-    
       <div className="flex flex-col items-center">
         <div className="mt-6 text-center">
            <ScottCyberWorld/>
