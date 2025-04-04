@@ -1,0 +1,57 @@
+.container2 {
+    background-color: white; /* Light background for readability */
+    padding: 20px;
+    border-radius: 10px; /* Slightly rounded corners for a modern look */
+    margin-bottom: 20px; /* Add some space below this section */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    text-align: center; /* Center text within elements */
+  }
+  
+  .welcome-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark grey */
+    margin-bottom: 5px;
+  }
+  
+  .title-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: #007bff; /* A vibrant blue (common for tech/business) */
+    margin-bottom: 15px;
+  }
+  
+  .tagline-text {
+    font-size: 16px;
+    color: #555; /* Medium grey */
+    margin-bottom: 10px;
+  }
+  
+  .we-got-you-covered-text {
+    font-size: 18px;
+    font-weight: 600; /* Semibold */
+    color: #28a745; /* A success/positive green */
+    margin-bottom: 15px;
+  }
+  
+  .services-container {
+    margin-bottom: 20px;
+  }
+  
+  .services-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .slogan-container {
+    margin-top: 15px;
+  }
+  
+  .slogan-text {
+    font-size: 16px;
+    font-style: italic;
+    color: #777;
+  }
