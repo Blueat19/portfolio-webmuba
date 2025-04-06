@@ -14,7 +14,7 @@ export default function ScottCyberWorldSection(){
                    />
             </div>
             <div className='col-12 col-md-6 col-sm-12'>
-            <h2 className="welcome-text">WELCOME TO</h2>
+            <h2 className="welcome-text"><strong>WELCOME TO</strong></h2>
       <h1 className="title-text">Scott’s CyberWorld</h1>
 
       <p className="tagline-text">
@@ -24,11 +24,17 @@ export default function ScottCyberWorldSection(){
 
       <div className="services-container">
         <p className="services-text">From Logo and Banner Designs</p>
-        <p className="services-text">to Social Media Marketing and Advertising</p>
+        <p className="services-text">Social Media Marketing and Advertising</p>
+        <p className="services-text">to Website Development for the Business</p>
       </div>
 
       <div className="slogan-container">
         <p className="slogan-text">“CHANGING THE WORLD STEP BY STEP”</p>
+      </div>
+      <div 
+      className = "btn btn-primary"
+      >
+         <strong>Contact Us!</strong>
       </div>
             </div>
         </div>

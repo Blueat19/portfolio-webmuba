@@ -56,7 +56,11 @@ export default function About (){
       {employees.map((employee, index) => (
         <Col xs={12} sm={6} md={4} key={index} className="mb-4">
           <Card>
-            <Card.Img variant="top" src={employee.picture} />
+            <Card.Img
+             variant="top" 
+             src={employee.picture}
+             width={200}
+             />
             <Card.Body>
               <Card.Title>{employee.name}</Card.Title>
               <Card.Text>{employee.job}</Card.Text>

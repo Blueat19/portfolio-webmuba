@@ -11,6 +11,8 @@ import Footer from './components/Footer';
 import CustomizePackage from './pages/CustomizePackage';
 import Services from './pages/Services';
 import Cart from './components/Cart';
+import Webdesign from './pages/Webdesign';
+import Gaming from './components/Gaming';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path = "/Services" element={<Services/>}/>
           <Route path = "/cart" element={<Cart/>}/>
           <Route path = "/CustomizePackage/:pageValue" element={<CustomizePackage/>}/>
+          <Route path="/webd"  element = {<Webdesign/>}/>
+          <Route path="/gaming"  element = {<Gaming/>}/>
         </Routes>
         <TitleUpdater />
         <Footer/>

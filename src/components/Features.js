@@ -37,10 +37,6 @@ export default function Features() {
 
   return (
     <div className="container mt-4">
-      <h2 className="text-center text-4xl font-bold mb-4" style={{color:"red"}}>
-        Everything you need to tell us to start a website
-      </h2>
-
       <div className="row mt-4">
         {features.map((item, index) => (
           <div key={index} className="col-md-6 col-lg-4">
