@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, Button, Image, FormControl } from 'react-bootstrap';
 import { FaPlaystation, FaXbox, FaDesktop } from 'react-icons/fa';
-import './Cart.css';
+import Youtube from "../components/Youtube"
 
 export default function Gaming() {
     const [selectedSection, setSelectedSection] = useState('');
